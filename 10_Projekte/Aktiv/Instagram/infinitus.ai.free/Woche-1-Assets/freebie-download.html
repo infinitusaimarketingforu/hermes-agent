@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Free AI Stack Guide 🟢💜</title>
+    <style>
+        :root {
+            --bg-color: #0A0A0F;
+            --primary-green: #10B981;
+            --accent-purple: #6D28D9;
+            --text-white: #FFFFFF;
+        }
+        
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: var(--bg-color);
+            color: var(--text-white);
+            line-height: 1.7;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            color: var(--primary-green);
+            font-size: clamp(1.5rem, 3vw, 2.5rem);
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: var(--accent-purple);
+            border-bottom: 2px solid var(--primary-green);
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        
+        .value-prop {
+            background: rgba(16, 185, 129, 0.1);
+            border-left: 4px solid var(--primary-green);
+            padding: 20px;
+            margin: 20px 0;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .usp {
+            font-size: 1.3rem;
+            color: var(--text-white);
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(109, 40, 217, 0.1);
+            border-radius: 8px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        
+        th {
+            color: var(--primary-green);
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--primary-green);
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: transform 0.2s ease;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        code {
+            background: rgba(16, 185, 129, 0.2);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Fira Code', monospace;
+        }
+        
+        .prompt-box {
+            background: rgba(109, 40, 217, 0.1);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            border-left: 3px solid var(--accent-purple);
+        }
+        
+        pre {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        
+        .download-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+        }
+        
+        /* Mobile optimization */
+        @media (min-width: 769px) {
+            .download-section {
+                max-width: 600px;
+                margin-inline: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🖥️ Mein Free AI Stack Guide</h1>
+        <p style="opacity: 0.9;">Dein $0 Mondschein LLM Setup + Automation (Ollama + n8n)</p>
+        <button onclick="downloadPDF()" class="cta-button">💬 Send to Friend Email</button>
+    </header>
+
+    <section class="value-prop">
+        <pre><code>WHAT: Full Local AI Stack (Ollama + n8n + Prompts)
+WHO: Developers, Builders, AI Curious Non-Techies
+WHEN: Instant Download | Lifetime Access
+WHY: $0 Mondschein LLMs, Full Automation Free Tier</code></pre>
+    </section>
+
+    <div class="usp">
+        💚 Your Private Cloud. Zero API Keys. 100% Local Control.
+    </div>
+
+    <div class="download-section">
+        <h2 style="text-align: center; border: none; margin-bottom: 20px;">📥 Download Your Guide</h2>
+        
+        <div style="margin-bottom: 20px;">
+            <img src="/path-to-your-free-guide.pdf" alt="Free AI Stack Guide PDF Thumbnail" style="max-width: 400px; border-radius: 8px; box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);">
+        </div>
+
+        <a href="/path-to-your-free-guide.pdf" download class="cta-button" style="display: inline-block;">
+            ⬇️ Download Free AI Stack Guide (PDF)
+        </a>
+
+        <p style="margin-top: 15px; opacity: 0.8;">Lifetime Access | Lifetime Updates</p>
+    </section>
+
+    <section>
+        <h2>📦 Inhalt deines Guides</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Modul</th>
+                    <th>Inhalt</th>
+                    <th>Betrag</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>AI SETUP</strong></td>
+                    <td>Ollama Install, Model Download, Terminal Config</td>
+                    <td>3 min / 5 min</td>
+                </tr>
+                <tr>
+                    <td><strong>PROMPT BANKS</strong></td>
+                    <td>7 Copy-Paste Prompts für n8n/Obsidian/Llama</td>
+                    <td>Copy-Paste Ready</td>
+                </tr>
+                <tr>
+                    <td><strong>CHECKLISTS & CHECK</strong></td>
+                    <td>Ollama + n8n Installation Checklists (Ops)</td>
+                    <td>Verifizierung</td>
+                </tr>
+                <tr>
+                    <td><strong>AUTOMATION BUILDER</strong></td>
+                    <td>Full Workflow Beispiel (Email → Ollama → n8n)</td>
+                    <td>JSON + YAML Files</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 style="margin-top: 25px;">📥 ZIP Structure (Inhalt deines Downloads)</h3>
+        
+        <pre><code> 📦 Free-AI-Stack-Guide_v1.zip/
+├── README.md                      # Quick start, value prop
+├── INSTALL_GUIDE.pdf             # Step-by-step Ollama + n8n
+├── PROMPT_BANK.md                # 7 Copy-Paste Prompts
+├── CHECKLISTS_CHECK.json         # Interactive checklist (Airtable)
+├── WORKFLOW_EXAMPLE.yml          # Full automation flow YAML
+└── ERROR_LOGS_SOLUTIONS.pdf     # Troubleshooting guide</code></pre>
+    </section>
+
+    <section class="prompt-box">
+        <h3 style="color: white; margin-bottom: 10px;">🔧 Prompt Template V1 (Kopierbar)</h3>
+        
+        <div style="opacity: 0.9;">
+            <p><strong>Role:</strong> Your n8n Expert. Find the bug, suggest a fix.</p>
+            
+            <pre><code>Input: [paste your Workflow JSON or screenshot]
+Output Format: 
+1) Problem summary + line #2) Fix code snippet (JSON/JS) + 3) Why this works
+
+Example Output:
+- Issue: Body parsing in Node.js not set → Use {json:true} header
+- Code: Add {json:true} to n8n's Request Headers field
+- Why: n8n sends body as string by default. Set json:true for proper parsing.</code></pre>
+        </div>
+    </section>
+
+    <section>
+        <h2>🚀 Next Step: Upgrade zum Prompt Pack $7</h2>
+        
+        <p style="margin-top: 15px; font-size: 0.95rem;">
+            Dein Guide hat dir die Grundlagen gegeben. Der <strong>Prompt Pack $7</strong> enthält:
+        </p>
+        
+        <ul style="opacity: 0.9; margin-left: 20px;">
+            <li>25+ kuratierte Prompts für Obsidian/Ollama/n8n</li>
+            <li>Setup-Videos (4 min pro Tutorial)</li>
+            <li>Obsidian Template Bundle + Data-Structure</li>
+            <li>Weekly AI Newsletter Access</li>
+        </ul>
+
+        <a href="/path-to-your-gumroad-prompts-pack-page" class="cta-button" style="background-color: var(--accent-purple);">
+            💜 $7 Prompt Pack (Buy Now)
+        </a>
+
+        <p style="margin-top: 15px; opacity: 0.8;">Pay-what-you-wait oder Pay $7 für Lebenslange Updates</p>
+    </section>
+
+    <footer style="text-align: center; margin-top: 60px; padding: 30px; border-top: 1px solid rgba(255, 255, 255, 0.1); opacity: 0.7;">
+        <p>AI Infinitus Project</p>
+        <p style="font-size: 0.85rem; margin-top: 5px;">— Julian Goldie AI Assistant | @UnlimitedAI_001</p>
+        <p style="font-size: 0.8rem; margin-top: 10px;">© 2026 AI Infinitus. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function downloadPDF() {
+            const email = prompt("Deine E-Mail-Adresse für Personalisierung?");
+            if (email && confirm(`Send Guide zu: ${email} [Enter to proceed]`)) {
+                // Would trigger Google Form submission here
+                window.location.href = "/path-to-your-google-form-thank-you";
+            }
+        }
+
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', e => {
+                if (!confirm("Link click confirmed?")) {
+                    e.preventDefault();
+                    return;
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
